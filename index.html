@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- Start Hero -->
-<div class="hero" style="background: url('{{ site.baseurl }}/img/{{ site.hero.hero_img }}') no-repeat; background-size: cover; background-position: center">
+<div class="hero" style="background: url('{{ site.baseurl }}/img/{{ site.hero.hero_img }}') no-repeat; background-size: 80%; background-position: center">
     <div class="hero-content">
 
         <div class="container-fluid">
@@ -69,31 +69,30 @@ layout: default
 <div class="three-shade-col">
     <div class="col-sm-4">
         <svg class="icon icon-user"><use xlink:href="#icon-user"></use></svg>
-        <h3>Professor Info</h3>
+        <h3>Professor</h3>
         <ul>
-            {% if site.contact.name %}<li><strong> {{ site.contact.name }}</strong></li>{% endif %}
-
-            {% if site.contact.email %}<li><strong>Email : </strong>{{ site.contact.email }}</li>{% endif %}
-            {% if site.contact.division %}<li><strong>Division : </strong> {{ site.contact.division }}</li>{% endif %}
-            {% if site.contact.university %}<li> {{ site.contact.university }}</li>{% endif %}
+            {% if site.contact.name %}<li><p style="font-size: 140%"><strong> {{ site.contact.name }}</strong></p></li>{% endif %}
+            {% if site.contact.email %}<li><p style="font-size: 120%">{{ site.contact.email }}</p></li>{% endif %}
+            {% if site.contact.division %}<li><p style="font-size: 120%">Division of {{ site.contact.division }}</p></li>{% endif %}
+            {% if site.contact.university %}<li><p style="font-size: 120%"> {{ site.contact.university }}</p></li>{% endif %}
         </ul>
     </div>
     <div class="col-sm-4">
         <svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>
-        <h3>Contact CBI</h3>
+        <h3>Contact CBI</h3><br>
         <ul>
-            {% if site.contact.email %}<li> {{ site.contact.email }}</li>{% endif %}
-            <li><strong>or</strong></li>
-            {% if site.contact.email_lab %}<li> {{ site.contact.email_lab }}</li>{% endif %}
+            {% if site.contact.email %}<li><p style="font-size: 120%"><strong> {{ site.contact.email }}</strong></p></li>{% endif %}
+            <li><p style="font-size: 120%">or</p></li>
+            {% if site.contact.email_lab %}<li><p style="font-size: 120%"><strong>{{ site.contact.email_lab }}</strong></p></li>{% endif %}
         </ul>
     </div>
     <div class="col-sm-4">
         <svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
-        <h3>Location</h3>
+        <h3>Location</h3><br>
         <ul>
-            <li>{{ site.contact.address }}</li>
-            <li>{{ site.contact.lab_kr }}</li>
-            <li>{{ site.contact.lab_eng }}</li>
+            <li><p style="font-size: 120%">{{ site.contact.address }}</p></li>
+            <li><p style="font-size: 120%">{{ site.contact.lab_kr }}</p></li>
+            <li><p style="font-size: 120%">{{ site.contact.lab_eng }}</p></li>
         </ul>
     </div>
 </div>
