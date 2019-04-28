@@ -1,23 +1,39 @@
 - icon: icon-user-md
-  title: Invisible braces
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+  title: Analysis of characteristic information and developing an advanced program for use of germplasm
+  year: 2019.01 - 2023.12
+  description: 
 
 - icon: icon-diamond
-  title: Cosmetic Dentistry
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+  title: Development of international standard of a meta-service model for medical product information
+  year: 2018.04 - 2020.05
+  description: This research was supported by Technology Innovation Program (or Industrial Strategic technology development program)
 
 - icon: icon-flask
-  title: Stain removal
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+  title: Development of highly parallelized distributed short read aligner for bisulfite-treated methylome data
+  year: 2017.03 - 2019.02
+  description: This research was supported by the National Research Foundation of Korea (NRF) grant funded by the Korea government (MSIP; Ministry of Science, ICT & Future Planning) <br><br><br>
 
 - icon: icon-globe
-  title: Dentures
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+  title: Development of high-precision and high-performance multi-omics cancer genome analysis software for targeted therapeutics and certification for clinical application
+  year: 2015.12 - 2021.11
+  description: This research was supported by a grant of the Korea Health Technology RD Project through the Korea Health Industry Development Institute (KHIDI), funded by the Ministry of Health & Welfare, Republic of Korea
 
 - icon: icon-ambulance
-  title: Emergency Calls
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+  title: Development of high-performance analysis technologies and open platforms for the integrated analysis of genomics data
+  year: 2014.11.01 - 2022.10.31
+  description: This research was supported by the Bio & Medical Technology Development Program of the NRF funded by the Korean government, MSIP
 
 - icon: icon-bed
-  title: Sedation
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+  title: The Bio&Medical Technology Development Program
+  year: 2012.11.30 - 2017.11.29
+  description: Development of a convergence education system combining BT and IT<br>This research was supported by the Bio & Medical Technology Development Program of the National Research Foundation (NRF) funded by the Ministry of Science, ICT & Future Planning
+
+- icon: icon-bed
+  title: Next-Generation Information Computing Development
+  year: 2012.07.01 - 2017.06.30
+  description: Development of Enabling Software Technology for Mining Big Data in Natural Science<br>This research was supported by Next-Generation Information Computing Development Program through the National Research Foundation of Korea(NRF) funded by the Ministry of Science, ICT & Future Planning
+
+- icon: icon-bed
+  title: Drought resistance in Rice
+  year: 2013.Spring - 2017.06.30
+  description: Developing novel network gene markers related to drought resistance in the rice<br>This research was supported by a grant from the Next-Generation BioGreen 21 Program (No.PJ011211022015 ), Rural Development Administration

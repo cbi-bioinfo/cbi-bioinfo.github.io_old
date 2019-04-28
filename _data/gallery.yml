@@ -1,31 +1,15 @@
-- image_thumb: gallery-small.jpg
-  image_large: gallery-large.jpg
-  image_alt: something meaningful
+- image_thumb: day1_2019_thumb.jpg
+  image_large: day1_2019.jpg
+  image_alt: 2019 Day1 meeting
 
-- image_thumb: gallery-small2.jpg
-  image_large: gallery-large.jpg
-  image_alt: something meaningful
+- image_thumb: day1_2019_2_thumb.jpg
+  image_large: day1_2019_2.jpg
+  image_alt: 2019 Day1 meeting
 
-- image_thumb: gallery-small.jpg
-  image_large: gallery-large.jpg
-  image_alt: something meaningful
+- image_thumb: day1_2018_thumb.jpg
+  image_large: day1_2018.jpg
+  image_alt: 2018 Day1 meeting
 
-- image_thumb: gallery-small2.jpg
-  image_large: gallery-large.jpg
-  image_alt: something meaningful
-
-- image_thumb: gallery-small2.jpg
-  image_large: gallery-large.jpg
-  image_alt: something meaningful
-
-- image_thumb: gallery-small.jpg
-  image_large: gallery-large.jpg
-  image_alt: something meaningful
-
-- image_thumb: gallery-small2.jpg
-  image_large: gallery-large.jpg
-  image_alt: something meaningful
-
-- image_thumb: gallery-small.jpg
-  image_large: gallery-large.jpg
-  image_alt: something meaningful
+- image_thumb: day1_2018_2_thumb.jpg
+  image_large: day1_2018_2.jpg
+  image_alt: 2018 Day1 meeting

@@ -1,6 +1,6 @@
 # Site settings
 title: Computational Bio Intelligence Lab 
-description: "A responsive Jekyll theme for dental clinics."
+description: "A Jekyll theme for CBI laboratory"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the name of your domain
 #logo_url: svg/min/logo.svg
@@ -8,7 +8,7 @@ logo_url: img/cbi_logo_4.png
 
 # Hero
 hero: 
-    hero_img: img/bioinfo.png
+    hero_img: day1_2018_4.jpg #test3.jpg #img/bioinfo.png
     hero_title: Welcome to CBI Lab!
     hero_description: 생명정보 지능 연구실에 오신것을 환영합니다!
 
@@ -17,10 +17,14 @@ api_token: # Enter API token here
 
 # Contact info
 contact:
-    phone: 932 50 540
-    emergency: 931 53 234
-    email: contact@yoursite.com
-    address: Von schroeders 273, <br> Viña del mar - Chile
+    name: Heejoon Chae
+    division: Computer Science
+    email: heechae@sookmyung.ac.kr
+    university: Sookmyung Women's university
+    address : 명신관 316C호 
+    lab_kr : 생명정보 지능 연구실
+    lab_eng : Compuational Bio Intelligence
+    email_lab : miniymay@sookmyung.ac.kr
 
 # Opening hours
 monday_friday: 9:00 – 18:00

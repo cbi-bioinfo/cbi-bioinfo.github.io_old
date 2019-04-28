@@ -3,23 +3,31 @@ layout: default
 ---
 
 <!-- Start Hero -->
-<div class="hero" style="background: url('{{ site.baseurl }}/img/{{ site.hero.hero_img }}') no-repeat; background-size: cover;">
+<div class="hero" style="background: url('{{ site.baseurl }}/img/{{ site.hero.hero_img }}') no-repeat; background-size: 80%; background-position: center">
     <div class="hero-content">
+
         <div class="container-fluid">
             <div class="hero-content-inner">
-                <h1>{{ site.hero.hero_title }}</h1>
-                <p>{{ site.hero.hero_description }}</p>
+
+                <h1><strong>{{ site.hero.hero_title }}</strong></h1>
+                <p><strong>{{ site.hero.hero_description }}</strong></p>
             </div>
         </div>
     </div>
     
     <div class="container-fluid">
-      
-        <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form">
-             
+        <!--
+        <img src="img/day1_2018_2.jpg" class="img-responsive" alt="Responsive image" style="width: 300%">
+    -->
+        
+        
+        <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form" style="visibility: hidden">
             <h3><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>Make an Appointment</h3>
-            <!-- 
+ 
             <form action="https://getsimpleform.com/messages?form_api_token={{ site.api_token }}" method="post">
+                <div class="form-field">
+                    <input name="name" type="text" placeholder="Name" required>
+                </div>
                 <div class="form-field">
                     <input name="name" type="text" placeholder="Name" required>
                 </div>
@@ -27,7 +35,19 @@ layout: default
                     <input name="phone" type="tel" placeholder="Phone" required>
                 </div>
                 <div class="form-field">
+                    <input name="phone" type="tel" placeholder="Phone" required>
+                </div>
+                 <div class="form-field">
+                    <input name="phone" type="tel" placeholder="Phone" required>
+                </div>
+                 <div class="form-field">
+                    <input name="phone" type="tel" placeholder="Phone" required>
+                </div>
+                <div class="form-field">
                     <input name="email" type="email" placeholder="Email" required>
+                </div>
+                 <div class="form-field">
+                    <input name="phone" type="tel" placeholder="Phone" required>
                 </div>
                 <div class="form-field">
                     <textarea name="comments" placeholder="Message" required></textarea>
@@ -35,7 +55,8 @@ layout: default
                 <input type="submit" class="btn btn-default" value="Send">
 
             </form>
-         -->
+
+         
         </div>
         
 
@@ -47,40 +68,33 @@ layout: default
 <!-- Start 3 columns -->
 <div class="three-shade-col">
     <div class="col-sm-4">
-        <svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>
-        <h3>Contact Us</h3>
+        <svg class="icon icon-user"><use xlink:href="#icon-user"></use></svg>
+        <h3>Professor Info</h3>
         <ul>
-            {% if site.contact.phone %}<li><strong>Phone:</strong> {{ site.contact.phone }}</li>{% endif %}
-            {% if site.contact.emergency %}<li><strong>Emergency:</strong> {{ site.contact.emergency }}</li>{% endif %}
-            {% if site.contact.email %}<li><strong>Email:</strong> {{ site.contact.email }}</li>{% endif %}
+            {% if site.contact.name %}<li><strong> {{ site.contact.name }}</strong></li>{% endif %}
+
+            {% if site.contact.email %}<li><strong>Email : </strong>{{ site.contact.email }}</li>{% endif %}
+            {% if site.contact.division %}<li><strong>Division : </strong> {{ site.contact.division }}</li>{% endif %}
+            {% if site.contact.university %}<li> {{ site.contact.university }}</li>{% endif %}
         </ul>
     </div>
     <div class="col-sm-4">
-        <svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>
-        <h3>Opening Hours</h3>
-        <table>
-            <tbody>
-                <tr>
-                    <td>Monday – Friday</td>
-                    <td>{{ site.monday_friday }}</td>
-                </tr>
-                <tr>
-                    <td>Saturday</td>
-                    <td>{{ site.saturday }}</td>
-                </tr>
-                <tr>
-                    <td>Sunday</td>
-                    <td>{{ site.sunday }}</td>
-                </tr>
-            </tbody>
-        </table>
+        <svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>
+        <h3>Contact CBI</h3>
+        <ul>
+            {% if site.contact.email %}<li> {{ site.contact.email }}</li>{% endif %}
+            <li><strong>or</strong></li>
+            {% if site.contact.email_lab %}<li> {{ site.contact.email_lab }}</li>{% endif %}
+        </ul>
     </div>
     <div class="col-sm-4">
         <svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
         <h3>Location</h3>
-            <p>
-                {{ site.contact.address }}
-            </p>
+        <ul>
+            <li>{{ site.contact.address }}</li>
+            <li>{{ site.contact.lab_kr }}</li>
+            <li>{{ site.contact.lab_eng }}</li>
+        </ul>
     </div>
 </div>
 <!-- End 3 columns -->
@@ -88,73 +102,83 @@ layout: default
 <!-- Start About -->
 <div id="about" class="about">
     <div class="container-fluid">
-        <h2 class="section-title">About Us</h2>
-
+        <h2 class="section-title"><strong>About CBI Lab</strong></h2>
+        <br>
         <div class="row">
             <div class="col-sm-6">
-                <h3>Welcome to DentistSmile</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis nostrum ab vero temporibus magnam, delectus!</p>
+                <br>
+                <h3>■ <strong> Deep Learning </strong></h3>
 
                 <div class="media">
-                    <div class="media-left">
-                        <div class="boxed-icon">
-                            <svg class="icon icon-heart"><use xlink:href="#icon-heart"></use></svg>
-                        </div>
-                    </div>
                     <div class="media-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam explicabo unde doloremque quo, fugit, nisi.</p>
-                    </div>
-                </div>
-
-                <div class="media">
-                    <div class="media-left">
-                        <div class="boxed-icon">
-                            <svg class="icon icon-medkit"><use xlink:href="#icon-medkit"></use></svg>
-                        </div>
-                    </div>
-                    <div class="media-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam explicabo unde doloremque quo, fugit, nisi.</p>
-                    </div>
-                </div>
-
-                <div class="media">
-                    <div class="media-left">
-                        <div class="boxed-icon">
-                            <svg class="icon icon-star"><use xlink:href="#icon-star"></use></svg>
-                        </div>
-                    </div>
-                    <div class="media-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam explicabo unde doloremque quo, fugit, nisi.</p>
+                        <br><p style="font-size: 140%">최근 다양한 뉴럴 네트워크 (neural network) 모델의 발달을 기반으로 딥러닝 (deep learning)이 여러 분야에서 빅데이터 기반의 다양한 분석 및 분류 모델로서의 높은 성능과 가능성을 보여주고 있다. 이러한 딥러닝 기술을 활용하여 본 연구실에서는 DNA methylation과 miRNA 등의 후성유전체 데이터 또는 gene expression과 같은 유전체 데이터를 기반으로 여러 타입의 암 진단 및 분류 모델을 개발하는 연구를 진행하고 있다.</p>
                     </div>
                 </div>
             </div>
             <div class="col-sm-6">
-                <img src="img/about.jpg" alt="...">
+                <img src="img/deepLearning.jpg" class="img-responsive" alt="Responsive image">
+            </div>
+        </div>
+        <br><br><br><br><br>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <br>
+                <h3>■ <strong> Epigenetics and Cancer </strong></h3>
+
+                <div class="media">
+                    <div class="media-body">
+                        <br><p style="font-size: 140%">후성유전학(epigeneitcs)은 DNA 염기서열의 변화 없이 유전자의 발현을 조절하여 유전자의 기능이 변화되는 현상을 연구하는 학문이다. 대표적인 메커니즘으로 DNA methylation은 DNA 상에서 발생하는 후성유전학적 변이로서 염기서열의 변화 없이 화학적인 변화에 의해 유전자 발현 조절, 세포 분화, 이동성 요소들의 억제와 같은 여러 생물학적 과정 속에서의 중요한 역할을 수행한다. 본 연구실에서는 후성유전체 데이터를 분석하여 유전자 조절과 관련하여 중요성이 높은 특성을 발굴하고, 질병 중에서도 특히 암과 관련된 데이터 분석을 집중적으로 연구하고 있다.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <img src="img/epigenetics.jpg" class="img-responsive" alt="Responsive image">
+            </div>
+        </div>
+
+        <br><br><br><br><br>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <br>
+                <h3>■ <strong> Cloud Computing </strong></h3>
+
+                <div class="media">
+                    <div class="media-body">
+                        <br><p style="font-size: 140%">맞춤의학 및 정밀의학을 위한 유전체 및 후성유전체 분석 기술이 발전함에 따라, 대용량 시퀀싱 데이터들이 생산되면서 효율적인 바이오 빅데이터 처리의 필요성이 대두되고 있다. 본 연구실에서는 초대용량 후성 유전체 데이터 처리를 위한 분산 맵핑 알고리즘을 개발하고, 이를 클라우드 컴퓨팅(cloud computing) 환경 상에서 구축하는 연구를 진행하고 있다.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <img src="img/cloudComputing.jpg" class="img-responsive" alt="Responsive image">
             </div>
         </div>
     </div>
 </div>
 <!-- End About -->
 
-<!-- Start Treatments -->
+<!-- Start Projects -->
 <div id="treatments" class="treatments">
     <div class="container-fluid">
-        <h2 class="section-title">test</h2>
+        <h2 class="section-title"><strong>Selected Projects</strong></h2>
 
         <div class="row">
-            {% for treatment in site.data.treatments %}
-                <div class="col-sm-6 col-md-4">
+        {% for treatment in site.data.treatments %}
+                <div class="col-xs-6" style="width: 50%;display: inline-block;">
                     <div class="icon-box">
-                        <svg class="icon {{ treatment.icon }}"><use xlink:href="#{{ treatment.icon }}"></use></svg>
-                        <h4>{{ treatment.title }}</h4>
-                        <p>{{ treatment.description }}</p>
+                        <h4> <img src="img/dot.png" width="1.3%"> <strong>{{ treatment.title }}</strong> </h4>
+                        <p>{{ treatment.year }}</p>
+                        {% if treatment.description %}<p>{{ treatment.description }}</p>
+                        {% else %} <br><br>
+                        {% endif %}
                     </div>
                 </div>
             {% endfor %}
         </div>
     </div>
 </div>
-<!-- End Treatments -->
+<!-- End Projects -->
 
 <!-- Start Our team -->
 <div id="team" class="team"> 
@@ -163,44 +187,19 @@ layout: default
     {% for member in site.data.team %}
         <div class="expandable-box">
             <div class="expandable-box-top">
-                <img src="{{ site.baseurl }}/img/{{ member.image }}" alt="{{ member.name }}">
+                <img src="{{ site.baseurl }}/img/{{ member.image }}" alt="{{ member.name }}" style="height: 40%">
                 <h4>{{ member.name }}</h4>
+                <p>{{ member.state }}</p>
             </div>
             <div class="expandable-box-bottom">
-                <a href="mailto:{{ member.email }}" data-toggle="tooltip" data-placement="bottom" title="{{ member.email }}"><svg class="icon icon-envelope"><use xlink:href="#icon-envelope"></use></svg></a>
-                </a>
-                <a href="tel:{{ member.phone }}" data-toggle="tooltip" data-placement="bottom" title="{{ member.phone }}"><svg class="icon icon-phone"><use xlink:href="#icon-phone"></use></svg></a>
-                </a>
+                <p style="font-size: 120%">{{ member.email }}</p>
+                
             </div>
         </div>
     {% endfor %}
     </div>
 </div>
 <!-- End Our team -->
-
-<!-- Start Testimonials -->
-<div id="testimonials" class="testimonials parallax" style="background-image: url('{{ site.baseurl }}/img/{{ site.testimonials.testimonials_img }}');">
-    <div class="overlay-container">
-        <div class="overlay"></div>
-        <div class="container-fluid">
-            <div id="testimonial-carousel">
-                {% for testimonial in site.data.testimonials %}
-                    <div class="testimonial-item">
-                        <svg class="icon icon-quote-left"><use xlink:href="#icon-quote-left"></use></svg>
-                        <blockquote>
-                            <p>{{ testimonial.description }}</p>
-                            <footer>
-                                {{ testimonial.name }}
-                                <small>{{ testimonial.title }}</small>
-                            </footer>
-                        </blockquote>
-                    </div>
-                {% endfor %}
-            </div>
-        </div>
-    </div>
-</div>
-<!-- End Testimonials -->
 
 <!-- Start Gallery -->
 <div id="gallery" class="gallery">
@@ -221,6 +220,3 @@ layout: default
 </div>
 <!-- End Gallery -->
 
-<!-- Start Map -->
-<div id="location" class="map" data-zoom="{{ site.map.zoom }}" data-address="{{ site.map.address }}" data-address-details="<img src='{{ site.map.address_details }}'>"></div>
-<!-- End Map -->

@@ -1,34 +1,30 @@
-- name: Britta Perry
-  image: team.jpg
-  email: email@gmail.com
+- name: Heejoon Chae
+  image: heejoon_chae.jpg
+  email: heechae@sookmyung.ac.kr
   phone: 9659 43 21
+  state: Professor
 
-- name: Troy Barnes 
-  image: team.jpg
-  email: email@gmail.com
+- name: Jiyoung Ahn
+  image: jiyoung_ahn.jpg
+  email: jy0103@sookmyung.ac.kr
   phone: 9659 43 21
+  state: M.S.Student
 
-- name: Annie
-  image: team.jpg
-  email: email@gmail.com
+- name: Heonyi Lee
+  image: test2.png
+  email: hy1165@sookmyung.ac.kr
   phone: 9659 43 21
+  state: M.S.Student
 
-- name: Jeff Winger
-  image: team.jpg
-  email: email@gmail.com
+- name: Joungmin Choi
+  image: joungmin_choi.jpg
+  email: miniymay@sookmyung.ac.kr
   phone: 9659 43 21
+  state: M.S.Student
 
-- name: Britta Perry
-  image: team.jpg
-  email: email@gmail.com
+- name: Jihyun Kim
+  image: jihyun_kim.jpg
+  email: kate0108@naver.com
   phone: 9659 43 21
+  state: B.S.Student
 
-- name: Troy Barnes
-  image: team.jpg
-  email: email@gmail.com
-  phone: 9659 43 21
-
-- name: Annie
-  image: team.jpg
-  email: email@gmail.com
-  phone: 9659 43 21
