@@ -60,7 +60,7 @@ layout: default
 <!-- End Hero -->
 
 <!-- Start 3 columns -->
-<div class="three-shade-col">
+<div class="three-shade-col" id="contact">
     <div class="col-sm-4">
         <svg class="icon icon-user"><use xlink:href="#icon-user"></use></svg>
         <h3>Professor</h3>
@@ -75,7 +75,7 @@ layout: default
         <svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>
         <h3>Contact CBI</h3><br>
         <ul>
-            {% if site.contact.email %}<li><p style="font-size: 120%"><strong> {{ site.contact.email }}</strong></p></li>{% endif %}
+            {% if site.contact.phone %}<li><p style="font-size: 120%"><strong> {{ site.contact.phone }}</strong></p></li>{% endif %}
             <li><p style="font-size: 120%">or</p></li>
             {% if site.contact.email_lab %}<li><p style="font-size: 120%"><strong>{{ site.contact.email_lab }}</strong></p></li>{% endif %}
         </ul>

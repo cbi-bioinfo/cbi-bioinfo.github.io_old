@@ -1,30 +1,30 @@
 - name: Heejoon Chae
   image: heejoon_chae.jpg
-  email: heechae@sookmyung.ac.kr
+  email: heechae AT sookmyung.ac.kr
   phone: 9659 43 21
   state: Professor
 
 - name: Jiyoung Ahn
   image: jiyoung_ahn.jpg
-  email: jy0103@sookmyung.ac.kr
+  email: jy0103 AT sookmyung.ac.kr
   phone: 9659 43 21
   state: M.S.Student
 
 - name: Heonyi Lee
   image: heonyi_lee.jpg
-  email: hy1165@sookmyung.ac.kr
+  email: hy1165 AT sookmyung.ac.kr
   phone: 9659 43 21
   state: M.S.Student
 
 - name: Joungmin Choi
   image: joungmin_choi.jpg
-  email: miniymay@sookmyung.ac.kr
+  email: miniymay AT sookmyung.ac.kr
   phone: 9659 43 21
   state: M.S.Student
 
 - name: Jihyun Kim
   image: jihyun_kim.jpg
-  email: kate0108@naver.com
+  email: kate0108 AT naver.com
   phone: 9659 43 21
   state: B.S.Student
 

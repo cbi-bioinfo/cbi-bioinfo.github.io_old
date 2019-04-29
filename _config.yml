@@ -8,7 +8,7 @@ logo_url: img/cbi_logo_4.png
 
 # Hero
 hero: 
-    hero_img: day1_2018_7.jpg #day1_2018_5.jpg #day1_2018_4.jpg #test3.jpg #img/bioinfo.png
+    hero_img: day1_2018.jpg #day1_2018_7.jpg #day1_2018_5.jpg #day1_2018_4.jpg #test3.jpg #img/bioinfo.png
     hero_title: Welcome to CBI Lab!
     hero_description: 생명정보 지능 연구실에 오신것을 환영합니다!
 
@@ -19,12 +19,13 @@ api_token: # Enter API token here
 contact:
     name: Heejoon Chae
     division: Computer Science
-    email: heechae@sookmyung.ac.kr
+    email: heechae AT sookmyung.ac.kr
     university: Sookmyung Women's university
     address : 명신관 316C호 
     lab_kr : 생명정보 지능 연구실
     lab_eng : Compuational Bio Intelligence lab
-    email_lab : miniymay@sookmyung.ac.kr
+    email_lab : cbi.bioinfo AT google.com
+    phone : 02) 2077-7414
 
 # Opening hours
 monday_friday: 9:00 – 18:00
