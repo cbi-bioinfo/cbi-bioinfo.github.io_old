@@ -65,7 +65,7 @@ layout: default
         <svg class="icon icon-user"><use xlink:href="#icon-user"></use></svg>
         <h3>Professor</h3>
         <ul>
-            {% if site.contact.name %}<li><p style="font-size: 140%"><strong> {{ site.contact.name }}</strong></p></li>{% endif %}
+            {% if site.contact.name %}<li><p style="font-size: 140%"><strong> <a href="professor.html" style="color:white;"> {{ site.contact.name }} </a></strong></p></li>{% endif %}
             {% if site.contact.email %}<li><p style="font-size: 120%">{{ site.contact.email }}</p></li>{% endif %}
             {% if site.contact.division %}<li><p style="font-size: 120%">Division of {{ site.contact.division }}</p></li>{% endif %}
             {% if site.contact.university %}<li><p style="font-size: 120%"> {{ site.contact.university }}</p></li>{% endif %}
@@ -178,6 +178,8 @@ layout: default
     <h2 class="section-title"><strong>Our Team</strong></h2> 
     <div id="team-carousel">
     {% for member in site.data.team %}
+        {% if member.name == "Heejoon Chae" %}
+        <a href="professor.html" style="color: white;text-decoration:none">
         <div class="expandable-box">
             <div class="expandable-box-top">
                 <img src="{{ site.baseurl }}/img/{{ member.image }}" alt="{{ member.name }}" style="height: 40%">
@@ -186,9 +188,21 @@ layout: default
             </div>
             <div class="expandable-box-bottom">
                 <p style="font-size: 120%">{{ member.email }}</p>
-                
             </div>
         </div>
+        </a>
+        {% else %}
+        <div class="expandable-box">
+            <div class="expandable-box-top">
+                <img src="{{ site.baseurl }}/img/{{ member.image }}" alt="{{ member.name }}" style="height: 40%">
+                <h4>{{ member.name }}</h4>
+                <p>{{ member.state }}</p>
+            </div>
+            <div class="expandable-box-bottom">
+                <p style="font-size: 120%">{{ member.email }}</p>
+            </div>
+        </div>
+        {% endif %}
     {% endfor %}
     </div>
 </div>
