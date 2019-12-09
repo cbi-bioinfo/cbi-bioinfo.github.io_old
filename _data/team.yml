@@ -4,18 +4,6 @@
   phone: 9659 43 21
   state: Professor
 
-- name: Jiyoung Ahn
-  image: jiyoung_ahn.jpg
-  email: jy0103 AT sookmyung.ac.kr
-  phone: 9659 43 21
-  state: M.S.Student
-
-- name: Heonyi Lee
-  image: heonyi_lee.jpg
-  email: hy1165 AT sookmyung.ac.kr
-  phone: 9659 43 21
-  state: M.S.Student
-
 - name: Joungmin Choi
   image: joungmin_choi.jpg
   email: miniymay AT sookmyung.ac.kr
@@ -26,7 +14,7 @@
   image: jihyun_kim.jpg
   email: kate0108 AT naver.com
   phone: 9659 43 21
-  state: B.S.Student
+  state: M.S.Student
 
 - name: Jiyoung Lee
   image: jiyoung_lee.png
@@ -38,4 +26,16 @@
   image: jieun_kim.jpg
   email: kje5076 AT gmail.com
   phone: 9659 43 21
-  state: B.S.Student
+  state: M.S.Student
+
+- name: Jiyoung Ahn
+  image: jiyoung_ahn.jpg
+  email: ~ 2018 August
+  phone: 9659 43 21
+  state: Alumni (SNU Hospital)
+
+- name: Heonyi Lee
+  image: heonyi_lee.jpg
+  email: ~ 2018 August
+  phone: 9659 43 21
+  state: Alumni (SNU Hospital)
