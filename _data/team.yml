@@ -8,7 +8,7 @@
   image: joungmin_choi.jpg
   email: miniymay AT sookmyung.ac.kr
   phone: 9659 43 21
-  state: M.S.Student <br/><br/>
+  state: M.S.Researcher <br/><br/>
 
 - name: Jihyun Kim
   image: jihyun_kim.jpg
@@ -16,38 +16,50 @@
   phone: 9659 43 21
   state: M.S.Student <br/><br/>
 
-- name: Jieun Kim
-  image: jieun_kim_stat.jpg
-  email: kje5076 AT gmail.com
+- name: Hyunkyung Choo
+  image: hyunkyung_choo_stat.jpg
+  email: alcielo11612 AT naver.com
   phone: 9659 43 21
   state: B.S.Student <br/><br/>
 
+- name: Dokyung Lee
+  image: dokyung_lee_sw.jpg
+  email: wizlaw AT naver.com
+  phone: 9659 43 21
+  state: B.S.Student <br/><br/>
+
+- name: Jieun Kim
+  image: jieun_kim_stat.jpg
+  email: ~ 2019 Jun. (Intern)
+  phone: 9659 43 21
+  state: Alumni <br/>B.S.Student<br/>
+
 - name: Jiyoung Lee
   image: jiyoung_lee.png
-  email: ~ 2019 December (Intern)
+  email: ~ 2019 Dec. (Intern)
   phone: 9659 43 21
-  state: Alumni <br/><br/>
+  state: Alumni <br/> KAIST AI대학원<br/>
 
 - name: Jieun Kim
   image: jieun_kim_law.jpg
-  email: ~ 2019 March (Intern)
+  email: ~ 2019 Mar. (Intern)
   phone: 9659 43 21
   state: Alumni <br/> 전자부품연구원 (KETI)
 
 - name: Jiyoung Ahn
   image: jiyoung_ahn.jpg
-  email: ~ 2018 August (M.S.)
+  email: ~ 2018 Aug. (M.S.)
   phone: 9659 43 21
   state: Alumni <br/> 서울대학교병원
 
 - name: Heonyi Lee
   image: heonyi_lee.jpg
-  email: ~ 2018 August (M.S.)
+  email: ~ 2018 Aug. (M.S.)
   phone: 9659 43 21
   state: Alumni <br/> 서울대학교병원
 
 - name: Hyemin Yoon
   image: hyemin_yoon.jpg
-  email: ~ 2017 August (Intern)
+  email: ~ 2017 Aug. (Intern)
   phone: 9659 43 21
   state: Alumni <br/> 서울아산병원 헬스이노베이션 빅데이터센터
